@@ -7,9 +7,13 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import java.util.ArrayList;
 
+/**
+ * viewpager  的适配器
+ */
+
 public class ViewPagerAdapter extends FragmentPagerAdapter {
-    private ArrayList<String> titleList;
-    private ArrayList<Fragment> fragmentList;
+    private ArrayList<String> titleList;   //标题列表
+    private ArrayList<Fragment> fragmentList;   //布局列表
 
     //BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT
     public ViewPagerAdapter(FragmentManager fm, ArrayList<String> titleList, ArrayList<Fragment> fragmentList, int behavior) {

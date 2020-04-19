@@ -51,12 +51,7 @@
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="bold" />
+
     </sf.gs.slideunlocklib.SlideLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:visibility="gone"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="滑动解锁" />
 </RelativeLayout>
